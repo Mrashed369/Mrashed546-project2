@@ -1,0 +1,337 @@
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;  
+box-sizing: border-box;
+scroll-behavior: smooth;
+    }
+
+    .carousel-item img{
+        height: 100vh;
+    }
+
+
+    .carousel-caption  {
+        background-color: rgba(0, 145, 255,.5);
+      
+       border-radius: 10px;
+       padding: 50px;
+    }
+
+    .welcome {
+        height: 150px;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+
+
+
+
+
+    .popular {
+        width: 100%;
+        height: 150px;
+        padding: 50px;
+        background-color:rgb(6, 128, 0);
+        color:white;
+       
+    }
+    .english {
+        height: 130px;
+         
+    } 
+
+ 
+   .card-group::after{ 
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color:aqua;
+        opacity: 0;
+        transition: 5s;
+         
+       
+ } 
+ 
+
+
+
+.card-group:hover::after {
+border: 1px solid black;
+width: 100%;
+height: 100%;
+opacity: .7;
+
+
+
+
+} 
+
+
+.card-group::before{ 
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color:aqua;
+    opacity: 0;
+    transition: 5s;
+     
+   
+} 
+
+
+
+
+.card-group:hover::before {
+
+width: 100%;
+height: 100%;
+opacity: .5;
+
+
+
+
+} 
+
+
+
+
+
+
+.aysel {
+    width: 500px;
+    height:100vh;
+    background-image:url(../photo/1716660460274.png);
+    background-size: cover;
+
+display: flex;
+justify-content:space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+
+.d_icon1 {
+ 
+    margin-top: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+    position: absolute;
+ 
+   margin-top:120px;
+   font-size: 50px;
+    
+   
+}
+
+ i {
+    font-size: 30px;
+    padding: 10px;
+    background-color: aquamarine; 
+}
+.heder {
+    height: 400px;
+    position: fixed;
+    z-index: 10;
+    margin-top: 120px;
+    margin-left: 95%;
+    
+}
+
+.d_icon2 {
+   
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 0.5;
+  position: absolute;
+ 
+ margin-top:200px;
+ font-size: 50px;
+  
+}
+
+.d_icon3 {
+   
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 0.5;
+  position: absolute;
+ 
+ margin-top:280px;
+ font-size: 50px;
+  
+}
+
+.d_icon4 {
+    
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 0.5;
+  position: absolute;
+ 
+ margin-top:360px;
+ font-size: 50px;
+  
+}
+
+
+
+.d_icon5{
+   
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 0.5;
+  position: absolute;
+  
+ margin-top:440px;
+ font-size: 50px;
+  
+}
+
+.d_icon5:hover,.d_icon1:hover,.d_icon2:hover,.d_icon3:hover,.d_icon4:hover {
+   
+    opacity: 1;
+    scale: 1.2;
+    transition: 2s;
+
+}
+
+
+
+
+
+.nasr {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.card-rashed::after {
+position: absolute;
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color:rgb(51, 128, 0);
+opacity: 0;
+transition: 2s;
+
+}
+.card-rashed:hover::after {
+border: 1px solid black;
+width: 100%;
+height: 100%;
+opacity: .5;
+
+
+
+
+} 
+
+
+
+
+.card-rashed::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(51, 128, 0);
+    opacity: 0;
+    transition: 2s;
+    
+    }
+    .card-rashed:hover::before {
+        background-color:rgb(51, 128, 0);
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    
+    
+    
+}
+
+.travel {
+    background-color:;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.thanks {
+    transition: 3s;
+}
+.thanks:hover {
+    scale: 1.2;
+    /* transition: 3s; */
+}
+
+
+
+.lin {
+    width: 150px;
+    height: 2px;
+    border-radius: 15px;
+    background-color: blue;
+   
+}
+
+
+.cont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ship {
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  
+    box-shadow: 15px 15px green, 10px 10px red, 5px 5px blue;
+    transition: 2s;
+}
+.ship:hover {
+    scale: 1.2;
+}
+
+.pharon {
+    width: 100%;
+    height: 300px;
+    background-image: url(../photo/egyptian-hieroglyphs-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
